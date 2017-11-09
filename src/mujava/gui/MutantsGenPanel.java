@@ -53,11 +53,11 @@ public class MutantsGenPanel extends JPanel
    JButton fileNoneB = new JButton("None");
    JButton fileAllB = new JButton("All");
 
-   JTable traditionalOpTable = new JTable();
+   JTable traditionalOpTable = new JTable();//存放方法级别的变异算子
    JButton traditionalNoneB = new JButton("None");
    JButton traditionalAllB = new JButton("All");
 
-   JTable classOpTable = new JTable();
+   JTable classOpTable = new JTable();//存放类级别的变异算子
    JButton classNoneB = new JButton("None");
    JButton classAllB = new JButton("All");
    
@@ -91,6 +91,7 @@ public class MutantsGenPanel extends JPanel
       leftPanel.setLayout (new BoxLayout (leftPanel, BoxLayout.PAGE_AXIS));
 
       JPanel usagePanel = new JPanel();
+      //流式布局每一行的组件都应与容器的开始边对齐
       usagePanel.setLayout(new FlowLayout(FlowLayout.LEADING));
 
       // instruction

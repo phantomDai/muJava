@@ -21,7 +21,7 @@ import openjava.ptree.*;
 import java.io.*;
 import java.util.ArrayList;
 
-import com.sun.tools.javac.resources.legacy;
+
 
 
 /**

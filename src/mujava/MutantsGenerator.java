@@ -17,6 +17,7 @@
  
 package mujava;
 
+import com.sun.tools.javac.Main;
 import openjava.mop.*;
 import openjava.ptree.*;
 import openjava.tools.parser.*;
@@ -30,7 +31,6 @@ import mujava.cli.Util;
 import mujava.op.util.*;
 import mujava.util.*;
 
-import com.sun.tools.javac.Main;
 
 /**
  * <p>Generate mutants according to selected mutation 

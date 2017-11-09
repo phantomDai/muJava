@@ -34,7 +34,7 @@ public class RunTestMain extends JFrame
 {
    private static final long serialVersionUID = 107L;
 
-   JTabbedPane testTabbedPane = new JTabbedPane();
+   JTabbedPane testTabbedPane = new JTabbedPane();//选项卡，可以往其中添加组件
 
    /** Panel for running mutants */
    RunTestPanel runPanel;

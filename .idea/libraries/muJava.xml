@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="muJava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/openjava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
